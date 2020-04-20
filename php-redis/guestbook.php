@@ -35,6 +35,7 @@ if (isset($_GET['cmd']) === true) {
 
     $value = $client->get($_GET['key']);
     print('{"data": "' . $value . '"}');
+    print('hello world');
   }
 } else {
   phpinfo();
